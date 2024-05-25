@@ -1,0 +1,31 @@
+#include <Servo.h> // Inclui a biblioteca para controlar servomotores
+
+int cm = 0; // Variável para armazenar a distância em centímetros
+
+// Função para medir a distância com o sensor ultrassônico
+long readUltrasonicDistance(int triggerPin, int echoPin) {
+  pinMode(triggerPin, OUTPUT); // Configura o pino de trigger como saída
+  digitalWrite(triggerPin, LOW); // Limpa o pino de trigger
+  delayMicroseconds(2); // Pequeno atraso
+  digitalWrite(triggerPin, HIGH); // Emite um pulso de 10 microssegundos
+  delayMicroseconds(10);
+  digitalWrite(triggerPin, LOW); // Limpa o pino de trigger novamente
+  pinMode(echoPin, INPUT); // Configura o pino de eco como entrada
+  return pulseIn(echoPin, HIGH); // Retorna a duração do pulso recebido no pino de eco
+}
+
+Servo servo_12; // Cria um objeto da classe Servo para controlar o servo
+
+void setup() {
+  servo_12.attach(12, 500, 2500); // Anexa o servo ao pino 12 com limites de pulso
+}
+
+void loop() {
+  // Verifica se a distância medida é menor que 70 cm
+  if (0.01723 * readUltrasonicDistance(7, 7) < 70) {
+    servo_12.write(90); // Move o servo para 90 graus
+  } else {
+    servo_12.write(0); // Move o servo para 0 graus
+  }
+  delay(10); // Pequeno atraso para melhorar a simulação
+}
