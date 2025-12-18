@@ -14,13 +14,13 @@
 
 ---
 
-### 👤 Sobre
+### Sobre
 
 Analista de Segurança Ofensiva com foco em **Pentest no setor financeiro**. Atuo identificando vulnerabilidades em ambientes críticos de Fintechs, com experiência em metodologias **OWASP Top 10**, **PCI-DSS** e **PTES**.
 
 ---
 
-### ⚡ O que eu faço
+### O que eu faço
 
 - **Penetration Testing** — Testes de intrusão em aplicações web e infraestrutura
 - **Red Team** — Simulação de ataques reais para testar defesas
@@ -30,7 +30,7 @@ Analista de Segurança Ofensiva com foco em **Pentest no setor financeiro**. Atu
 
 ---
 
-### 🛠️ Stack
+### Stack
 
 <div align="center">
 
@@ -46,7 +46,7 @@ Analista de Segurança Ofensiva com foco em **Pentest no setor financeiro**. Atu
 
 ---
 
-### 📂 Projetos
+### Projetos
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ Laboratório de estudo de malware desenvolvido em **Rust**. Projeto educacional 
 </td>
 <td width="50%">
 
-**🔓 [CVE-2024-38077-MadLicense](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)**
+**[CVE-2024-38077-MadLicense](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)**
 
 Exploit PoC para a vulnerabilidade CVE-2024-38077 (MadLicense) no Windows Remote Desktop Licensing Service. Ferramenta para teste de segurança e validação de patches.
 
@@ -72,7 +72,7 @@ Exploit PoC para a vulnerabilidade CVE-2024-38077 (MadLicense) no Windows Remote
 <tr>
 <td width="50%">
 
-**📜 [Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)**
+**[Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)**
 
 Coleção de scripts desenvolvidos durante estudos na Desec Security. Automação de tarefas de pentest, reconnaissance e análise de vulnerabilidades em ambientes controlados.
 
@@ -81,7 +81,7 @@ Coleção de scripts desenvolvidos durante estudos na Desec Security. Automaçã
 </td>
 <td width="50%">
 
-**🎓 [Projetos Acadêmicos](https://github.com/Ermensonx?tab=repositories)**
+**[Projetos Acadêmicos](https://github.com/Ermensonx?tab=repositories)**
 
 Trabalhos desenvolvidos na faculdade incluindo sistemas em C, projetos Java e soluções de lógica computacional. Base sólida em programação e estruturas de dados.
 
@@ -93,7 +93,7 @@ Trabalhos desenvolvidos na faculdade incluindo sistemas em C, projetos Java e so
 
 ---
 
-### 📊 GitHub
+### GitHub
 
 <div align="center">
 
@@ -104,7 +104,7 @@ Trabalhos desenvolvidos na faculdade incluindo sistemas em C, projetos Java e so
 
 ---
 
-### 📬 Contato
+### Contato
 
 <div align="center">
 
