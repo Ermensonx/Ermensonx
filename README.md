@@ -1,91 +1,124 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=160&section=header&text=Ermenson%20Marcos&fontSize=40&fontColor=c9d1d9&animation=fadeIn&fontAlignY=35&desc=Segurança%20Ofensiva%20•%20Pentester%20•%20Red%20Team&descSize=14&descAlignY=52"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Ermenson%20Marcos&fontSize=45&fontColor=c9d1d9&animation=fadeIn&fontAlignY=32&desc=🛡️%20Segurança%20Ofensiva%20•%20Pentester%20•%20Red%20Team&descSize=16&descAlignY=55"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=18&duration=3500&pause=1200&color=238636&center=true&vCenter=true&width=500&lines=Hacker+%C3%89tico;Pentest+em+Fintechs;OWASP+%7C+PCI-DSS+%7C+PTES" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=238636&center=true&vCenter=true&width=550&lines=Hacker+Ético+%7C+Offensive+Security;Pentest+em+Fintechs+%26+Aplicações+Web;OWASP+Top+10+%7C+PCI-DSS+%7C+PTES;Prevenindo+catástrofes+corporativas+💀" alt="Typing SVG" />
 
 <br/>
 
-<a href="https://ermensonjr.com"><img src="https://img.shields.io/badge/ermensonjr.com-238636?style=flat-square&labelColor=0d1117"/></a>
-<a href="https://github.com/Ermensonx"><img src="https://img.shields.io/github/followers/Ermensonx?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=238636"/></a>
-<a href="https://www.linkedin.com/in/ermensonx"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117"/></a>
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-ermensonjr.com-238636?style=for-the-badge&labelColor=0d1117)](https://ermensonjr.com)
+[![GitHub](https://img.shields.io/github/followers/Ermensonx?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=238636)](https://github.com/Ermensonx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ermensonx-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ermensonx)
 
 </div>
 
 ---
 
-### Sobre
+## ⚡ Sobre Mim
 
-Analista de Segurança Ofensiva com foco em **Pentest no setor financeiro**. Atuo identificando vulnerabilidades em ambientes críticos de Fintechs, com experiência em metodologias **OWASP Top 10**, **PCI-DSS** e **PTES**.
+```python
+class OffensiveSecurityAnalyst:
+    def __init__(self):
+        self.name = "Ermenson Marcos Rodrigues Jr"
+        self.role = "Analista de Segurança Ofensiva"
+        self.focus = ["Pentest Fintech", "Red Team", "Vulnerability Research"]
+        self.methodologies = ["OWASP Top 10", "PTES", "PCI-DSS", "MITRE ATT&CK"]
+        self.experience = "Prevenção de catástrofes corporativas em ambientes financeiros"
+    
+    def current_status(self):
+        return "Identificando vulnerabilidades críticas que outros não veem 🎯"
+```
+
+> **14 vulnerabilidades identificadas** em Fintech real (2 Críticas, 2 Altas) — incluindo vetor que permitiria comprometimento total do fluxo de caixa.
 
 ---
 
-### O que eu faço
-
-- **Penetration Testing** — Testes de intrusão em aplicações web e infraestrutura
-- **Red Team** — Simulação de ataques reais para testar defesas
-- **Vulnerability Research** — Pesquisa e análise de vulnerabilidades
-- **Exploit Development** — Desenvolvimento de PoCs e exploits educacionais
-- **Segurança Financeira** — Proteção de transações e sistemas bancários
-
----
-
-### Stack
+## 🎯 Áreas de Atuação
 
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
-![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=A8B9CC)
-![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=00599C)
-![Shell](https://img.shields.io/badge/Shell-0d1117?style=flat-square&logo=gnubash&logoColor=4EAA25)
-![Kali](https://img.shields.io/badge/Kali-0d1117?style=flat-square&logo=kalilinux&logoColor=557C94)
-![Burp](https://img.shields.io/badge/Burp-0d1117?style=flat-square&logo=burpsuite&logoColor=FF6633)
+| 🔴 Red Team | 🌐 Web Security | 🔐 Compliance | 🐍 Automação |
+|:---:|:---:|:---:|:---:|
+| Simulação de APT | OWASP Top 10 | PCI-DSS | Python/Bash |
+| Human Hacking | API Security | ISO 27002 | Exploit Dev |
+| OSINT & Recon | Source Maps | LGPD | Custom Tools |
 
 </div>
 
 ---
 
-### Projetos
+## 🛠️ Arsenal
+
+<div align="center">
+
+**Linguagens & Scripting**
+
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![C](https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=A8B9CC)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+**Ferramentas Ofensivas**
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=FF6633)
+![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=2596CD)
+![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali-0d1117?style=for-the-badge&logo=kalilinux&logoColor=557C94)
+![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=1679A7)
+
+</div>
+
+---
+
+## 🚀 Projetos em Destaque
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🦀 [MyStealerLab](https://github.com/Ermensonx/MyStealerLab)**
+### 🦀 [MyStealerLab](https://github.com/Ermensonx/MyStealerLab)
 
-Laboratório de estudo de malware desenvolvido em **Rust**. Projeto educacional para entender técnicas de coleta de dados e como se defender contra elas. Foco em análise de comportamento malicioso.
+<img src="https://img.shields.io/github/stars/Ermensonx/MyStealerLab?style=flat-square&color=238636&labelColor=0d1117"/>
 
-`Rust` `Malware Analysis` `Educational`
+Laboratório de estudo de malware em **Rust**. Projeto educacional para análise de técnicas de coleta de dados e desenvolvimento de defesas.
+
+`Rust` `Malware Analysis` `Educational` `Reverse Engineering`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**[CVE-2024-38077-MadLicense](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)**
+### 🔓 [CVE-2024-38077 Exploit](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)
 
-Exploit PoC para a vulnerabilidade CVE-2024-38077 (MadLicense) no Windows Remote Desktop Licensing Service. Ferramenta para teste de segurança e validação de patches.
+<img src="https://img.shields.io/badge/CVE-Critical-dc3545?style=flat-square&labelColor=0d1117"/>
 
-`Python` `CVE` `RCE`
+PoC para vulnerabilidade **MadLicense** no Windows RD Licensing Service. RCE crítica para validação de patches em ambientes controlados.
+
+`Python` `CVE` `RCE` `Windows Exploitation`
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**[Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)**
+### 🔧 [Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)
 
-Coleção de scripts desenvolvidos durante estudos na Desec Security. Automação de tarefas de pentest, reconnaissance e análise de vulnerabilidades em ambientes controlados.
+<img src="https://img.shields.io/github/stars/Ermensonx/Desec-Scripts?style=flat-square&color=238636&labelColor=0d1117"/>
 
-`Shell` `Automation` `Pentest`
+Coleção de scripts desenvolvidos durante estudos na **Desec Security**. Automação de reconnaissance, scanning e análise de vulnerabilidades.
+
+`Shell` `Automation` `Pentest` `OSINT`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**[Projetos Acadêmicos](https://github.com/Ermensonx?tab=repositories)**
+### 📚 [Projetos Acadêmicos](https://github.com/Ermensonx?tab=repositories)
 
-Trabalhos desenvolvidos na faculdade incluindo sistemas em C, projetos Java e soluções de lógica computacional. Base sólida em programação e estruturas de dados.
+<img src="https://img.shields.io/badge/Status-Completed-238636?style=flat-square&labelColor=0d1117"/>
 
-`C` `Java` `Arduino`
+Trabalhos de faculdade incluindo sistemas em C, projetos Java e IoT com Arduino. Base sólida em programação e estruturas de dados.
+
+`C` `Java` `Arduino` `Data Structures`
 
 </td>
 </tr>
@@ -93,33 +126,52 @@ Trabalhos desenvolvidos na faculdade incluindo sistemas em C, projetos Java e so
 
 ---
 
-### GitHub
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=Ermensonx&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&icon_color=238636&text_color=c9d1d9&hide_title=true&hide_rank=true"/>
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ermensonx&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&text_color=c9d1d9&hide_title=true&langs_count=6"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ermensonx&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&icon_color=238636&text_color=c9d1d9&count_private=true"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ermensonx&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&text_color=c9d1d9&langs_count=8"/>
+
+<br/>
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com?user=Ermensonx&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=238636&ring=238636&fire=238636&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=238636&sideLabels=238636&dates=8b949e"/>
 
 </div>
 
 ---
 
-### Contato
+## 🏆 Certificações & Formação
 
 <div align="center">
 
-<a href="https://ermensonjr.com"><img src="https://img.shields.io/badge/Portfolio-ermensonjr.com-238636?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://www.linkedin.com/in/ermensonx"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/></a>
-<a href="https://github.com/Ermensonx"><img src="https://img.shields.io/badge/GitHub-238636?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/></a>
+| Certificação | Status | Instituição |
+|:---:|:---:|:---:|
+| 🎓 Tecnologia em Sistemas de Informação | 4° Semestre | ITE |
+| 🛡️ DCPT - Desec Certified Penetration Tester | Em Progresso | Desec Security |
+| 📜 Cursos Complementares | Concluídos | Desec, HackerSec |
 
 </div>
 
 ---
 
+## 📫 Vamos Conversar?
+
 <div align="center">
 
-*"Identificando vulnerabilidades de alto impacto e protegendo transações financeiras."*
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:contato@ermensonjr.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0d1117)](https://ermensonjr.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ermensonx)
+[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Ermensonx)
+
+<br/>
+
+```
+🎯 "Identificando vulnerabilidades de alto impacto antes que os atacantes o façam."
+```
+
+<img src="https://komarev.com/ghpvc/?username=Ermensonx&color=238636&style=flat-square&label=Profile+Views"/>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:238636,50:161b22,100:0d1117&height=80&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:238636,50:161b22,100:0d1117&height=100&section=footer"/>
