@@ -139,9 +139,8 @@ Trabalhos de faculdade incluindo sistemas em C, projetos Java e IoT com Arduino.
 
 <br/>
 
-<a href="https://github.com/Ermensonx">
-  <img width="70%" src="https://streak-stats.demolab.com/?user=Ermensonx&theme=dark&hide_border=true&background=0D1117&stroke=238636&ring=238636&fire=238636&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=238636&sideLabels=238636&dates=8b949e"/>
-</a>
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ermensonx&theme=github-dark&hide_border=true&bg_color=0d1117&color=238636&line=238636&point=c9d1d9&area=true&area_color=238636"/>
+
 </div>
 
 ---
