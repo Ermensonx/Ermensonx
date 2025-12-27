@@ -130,12 +130,18 @@ Trabalhos de faculdade incluindo sistemas em C, projetos Java e IoT com Arduino.
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ermensonx&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&icon_color=238636&text_color=c9d1d9&count_private=true"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ermensonx&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&text_color=c9d1d9&langs_count=8"/>
+<a href="https://github.com/Ermensonx">
+  <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ermensonx&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=238636&icon_color=238636&text_color=c9d1d9&include_all_commits=true"/>
+</a>
+<a href="https://github.com/Ermensonx">
+  <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ermensonx&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=238636&text_color=c9d1d9&langs_count=8"/>
+</a>
 
 <br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=Ermensonx&theme=dark&hide_border=true&background=0D1117&stroke=238636&ring=238636&fire=238636&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=238636&sideLabels=238636&dates=8b949e"/>
+<a href="https://github.com/Ermensonx">
+  <img width="70%" src="https://github-readme-streak-stats-eight-coral.vercel.app/?user=Ermensonx&theme=dark&hide_border=true&background=0D1117&stroke=238636&ring=238636&fire=238636&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=238636&sideLabels=238636&dates=8b949e"/>
+</a>
 
 </div>
 
