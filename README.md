@@ -181,7 +181,7 @@ Coleção de scripts desenvolvidos durante estudos na **Desec Security**. Automa
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:contato@ermensonjr.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:ermenson.sec@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0d1117)](https://ermensonjr.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ermensonx)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/Ermensonx)
