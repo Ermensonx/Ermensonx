@@ -44,7 +44,7 @@ class OffensiveSecurityAnalyst:
 | Simulação de APT | OWASP Top 10 | PCI-DSS | Python/Bash |
 | Human Hacking | API Security | ISO 27002 | Exploit Dev |
 | OSINT & Recon | Source Maps | LGPD | Custom Tools |
-| CVE Research | MongoDB/DB Sec | PTES | PoC Development |
+| CVE Research | MongoDB/WinExploit| PTES | PoC Development |
 
 </div>
 
