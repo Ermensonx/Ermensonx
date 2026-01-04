@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Ermenson%20Marcos&fontSize=45&fontColor=c9d1d9&animation=fadeIn&fontAlignY=32&desc=🛡️%20Segurança%20Ofensiva%20•%20Pentester%20•%20Red%20Team&descSize=16&descAlignY=55"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=238636&center=true&vCenter=true&width=550&lines=Hacker+Ético+%7C+Offensive+Security;Pentest+em+Fintechs+%26+Aplicações+Web;OWASP+Top+10+%7C+PCI-DSS+%7C+PTES;Prevenindo+catástrofes+corporativas+💀" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=238636&center=true&vCenter=true&width=600&lines=Hacker+Ético+%7C+Offensive+Security;Pentest+em+Fintechs+%26+Aplicações+Web;CVE+Research+%7C+Vulnerability+Discovery;OWASP+Top+10+%7C+PCI-DSS+%7C+PTES;Prevenindo+catástrofes+corporativas+💀" alt="Typing SVG" />
 
 <br/>
 
@@ -21,13 +21,15 @@ class OffensiveSecurityAnalyst:
     def __init__(self):
         self.name = "Ermenson Marcos Rodrigues Jr"
         self.role = "Analista de Segurança Ofensiva"
-        self.focus = ["Pentest Fintech", "Red Team", "Vulnerability Research"]
+        self.focus = ["Pentest Fintech", "Red Team", "CVE Research", "Vulnerability Discovery"]
         self.methodologies = ["OWASP Top 10", "PTES", "PCI-DSS", "MITRE ATT&CK"]
-        self.experience = "Prevenção de catástrofes corporativas em ambientes financeiros"
+        self.achievements = ["CVE-2025-14857 (MongoBleed)", "14+ vulns em Fintech real"]
     
     def current_status(self):
         return "Identificando vulnerabilidades críticas que outros não veem 🎯"
 ```
+
+> **🔥 Destaque:** Autor do PoC para **CVE-2025-14847 (MongoBleed)** — vulnerabilidade crítica de vazamento de memória heap pré-autenticação em MongoDB, com 14.300+ exploits bem-sucedidos validados.
 
 > **14 vulnerabilidades identificadas** em Fintech real (2 Críticas, 2 Altas) — incluindo vetor que permitiria comprometimento total do fluxo de caixa.
 
@@ -42,6 +44,7 @@ class OffensiveSecurityAnalyst:
 | Simulação de APT | OWASP Top 10 | PCI-DSS | Python/Bash |
 | Human Hacking | API Security | ISO 27002 | Exploit Dev |
 | OSINT & Recon | Source Maps | LGPD | Custom Tools |
+| CVE Research | MongoDB/DB Sec | PTES | PoC Development |
 
 </div>
 
@@ -66,6 +69,7 @@ class OffensiveSecurityAnalyst:
 ![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali-0d1117?style=for-the-badge&logo=kalilinux&logoColor=557C94)
 ![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=1679A7)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
 
 </div>
 
@@ -77,7 +81,19 @@ class OffensiveSecurityAnalyst:
 <tr>
 <td width="50%" valign="top">
 
-### 🦀 [MyStealerLab](https://github.com/Ermensonx/MyStealerLab)
+### � [CVE-2025-14857 MongoBleed](https://github.com/Ermensonx/CVE-2025-14857-MongoBleed)
+
+<img src="https://img.shields.io/badge/CVE-Critical-dc3545?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Status-Validated-238636?style=flat-square&labelColor=0d1117"/>
+
+PoC completo para **MongoBleed** — vazamento de memória heap pré-autenticação em MongoDB 7.0.5. Baseado no ataque real ao Rainbow Six Siege.
+
+`Python` `MongoDB` `Memory Leak` `CVE Research`
+
+</td>
+<td width="50%" valign="top">
+
+### �🦀 [MyStealerLab](https://github.com/Ermensonx/MyStealerLab)
 
 <img src="https://img.shields.io/github/stars/Ermensonx/MyStealerLab?style=flat-square&color=238636&labelColor=0d1117"/>
 
@@ -86,6 +102,8 @@ Laboratório de estudo de malware em **Rust**. Projeto educacional para análise
 `Rust` `Malware Analysis` `Educational` `Reverse Engineering`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🔓 [CVE-2024-38077 Exploit](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)
@@ -97,8 +115,6 @@ PoC para vulnerabilidade **MadLicense** no Windows RD Licensing Service. RCE cr�
 `Python` `CVE` `RCE` `Windows Exploitation`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🔧 [Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)
@@ -108,17 +124,6 @@ PoC para vulnerabilidade **MadLicense** no Windows RD Licensing Service. RCE cr�
 Coleção de scripts desenvolvidos durante estudos na **Desec Security**. Automação de reconnaissance, scanning e análise de vulnerabilidades.
 
 `Shell` `Automation` `Pentest` `OSINT`
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 [Projetos Acadêmicos](https://github.com/Ermensonx?tab=repositories)
-
-<img src="https://img.shields.io/badge/Status-Completed-238636?style=flat-square&labelColor=0d1117"/>
-
-Trabalhos de faculdade incluindo sistemas em C, projetos Java e IoT com Arduino. Base sólida em programação e estruturas de dados.
-
-`C` `Java` `Arduino` `Data Structures`
 
 </td>
 </tr>
@@ -154,6 +159,19 @@ Trabalhos de faculdade incluindo sistemas em C, projetos Java e IoT com Arduino.
 | 🎓 Tecnologia em Sistemas de Informação | 4° Semestre | ITE |
 | 🛡️ DCPT - Desec Certified Penetration Tester | Em Progresso | Desec Security |
 | 📜 Cursos Complementares | Concluídos | Desec, HackerSec |
+
+</div>
+
+---
+
+## 🔬 Pesquisa & CVEs
+
+<div align="center">
+
+| CVE | Nome | Severidade | Status |
+|:---:|:---:|:---:|:---:|
+| CVE-2025-14847 | MongoBleed | 🔴 Crítica | ✅ PoC Validado |
+| CVE-2024-38077 | MadLicense | 🔴 Crítica | ✅ PoC Público |
 
 </div>
 
