@@ -57,13 +57,13 @@ impl OffensiveSecuritySpecialist {
 | 🔴 CVE-2025-14857 | 🔴 CVE-2024-38077 | 🎯 Fintech Audit |
 |:---:|:---:|:---:|
 | **MongoBleed** | **MadLicense** | **16 Vulnerabilities** |
-| CVSS 9.8 Critical | CVSS 9.8 Critical | 2 Critical • 3 High |
+| CVSSv4 8.7 High | CVSS 9.8 Critical | 2 Critical • 3 High |
 | Pre-auth Memory Leak | Windows RCE | Payment Flow Compromise |
 | 14,300+ exploits validated | RD Licensing Service | Full Security Assessment |
 
 </div>
 
-> **🔥 Destaque:** Autor do PoC para **CVE-2025-14847 (MongoBleed)** — vulnerabilidade crítica de vazamento de memória heap pré-autenticação em MongoDB, baseada na análise do breach do Rainbow Six Siege.
+> **🔥 Destaque:** Autor da **PoC mais completa** para **CVE-2025-14857 (MongoBleed)** — vulnerabilidade de vazamento de memória heap pré-autenticação em MongoDB, baseada na análise do breach do Rainbow Six Siege.
 
 ---
 
@@ -124,8 +124,8 @@ impl OffensiveSecuritySpecialist {
 
 ### 🩸 [CVE-2025-14857 MongoBleed](https://github.com/Ermensonx/CVE-2025-14857-MongoBleed)
 
-<img src="https://img.shields.io/badge/CVE-Critical-dc3545?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/CVSS-9.8-dc3545?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/CVE-High-ff6b35?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/CVSSv4-8.7-ff6b35?style=flat-square&labelColor=0d1117"/>
 
 PoC completo para **MongoBleed** — vazamento de memória heap pré-autenticação em MongoDB 7.0.5. Baseado no ataque real ao Rainbow Six Siege.
 
@@ -230,7 +230,7 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 | CVE ID | Nome | Severidade | Status |
 |:---:|:---:|:---:|:---:|
-| **CVE-2025-14857** | MongoBleed | 🔴 **CVSS 9.8** | ✅ PoC Validado |
+| **CVE-2025-14857** | MongoBleed | � **CVSSv4 8.7** | ✅ PoC Validado |
 | **CVE-2024-38077** | MadLicense | 🔴 **CVSS 9.8** | ✅ PoC Público |
 | 🔒 **Em Pesquisa** | TBD | ⏳ Pending | 🔄 Responsible Disclosure |
 
