@@ -179,20 +179,16 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 <div align="center">
 
-<a href="https://github.com/Ermensonx">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ermensonx&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&icon_color=238636&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
-</a>
-<a href="https://github.com/Ermensonx">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ermensonx&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=238636&text_color=c9d1d9&langs_count=8"/>
-</a>
+![Ermensonx's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ermensonx&theme=github_dark)
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ermensonx&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=238636&ring=238636&fire=dc3545&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=238636&sideLabels=238636&dates=6e7681" />
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ermensonx&theme=github_dark)
+![Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ermensonx&theme=github_dark)
 
 <br/>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ermensonx&theme=github-dark&hide_border=true&bg_color=0d1117&color=238636&line=238636&point=c9d1d9&area=true&area_color=238636"/>
+![Commits](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Ermensonx&theme=github_dark&utcOffset=-3)
 
 </div>
 
