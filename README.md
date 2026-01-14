@@ -87,7 +87,7 @@ impl OffensiveSecuritySpecialist {
 
 ---
 
-## 🛠️ Arsenal
+## Arsenal
 
 <div align="center">
 
@@ -102,18 +102,18 @@ impl OffensiveSecuritySpecialist {
 
 **Offensive Tools**
 
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=hackaday&logoColor=FF6633)
-![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=2596CD)
-![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=openbugbounty&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=PortSwigger&logoColor=FF6633)
+![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=hackthebox&logoColor=2596CD)
+![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=windowsterminal&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=1679A7)
-![Ghidra](https://img.shields.io/badge/Ghidra-0d1117?style=for-the-badge&logo=openjdk&logoColor=red)
-![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-0d1117?style=for-the-badge&logo=redhat&logoColor=dc3545)
+![Ghidra](https://img.shields.io/badge/Ghidra-0d1117?style=for-the-badge&logo=ghost&logoColor=red)
+![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-0d1117?style=for-the-badge&logo=target&logoColor=dc3545)
 
 **Platforms**
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=557C94)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 ![Azure](https://img.shields.io/badge/Azure-0d1117?style=for-the-badge&logo=microsoftazure&logoColor=0078D4)
 
 </div>
