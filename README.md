@@ -194,16 +194,31 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 ---
 
-## 🎓 Certifications & Training
+## 🎓 Certificações & Formação
 
 <div align="center">
 
-| Certification | Status | Organization |
+### 📚 Formação Acadêmica
+
+| Curso | Status | Instituição |
 |:---:|:---:|:---:|
-| 🎓 **B.S. Information Systems** | 4th Semester | ITE |
-| 🛡️ **DCPT** - Desec Certified Penetration Tester | 🔄 In Progress | Desec Security |
-| 📜 **Advanced Web Hacking** | ✅ Completed | HackerSec |
-| 📜 **OWASP Top 10 & API Security** | ✅ Completed | Various |
+| 🎓 **Tecnologia em Sistemas de Informação** | 5° Semestre | ITE - Instituição Toledo de Ensino |
+
+### 🛡️ Certificações em Progresso
+
+| Certificação | Foco | Instituição |
+|:---:|:---:|:---:|
+| � **DCPT** - Desec Certified Penetration Tester | Web Pentest, Network Security, Report Writing | Desec Security |
+| � **CRTA** - Red Team Analyst | Red Team Ops, MITRE ATT&CK, Adversary Simulation | Cyberwarfare |
+
+### ✅ Certificações Concluídas
+
+| Certificação | Descrição | Instituição |
+|:---:|:---:|:---:|
+| 🏆 **PEv1** - Pentest Experience | Certificação hands-on em cenários reais | Certificação Prática |
+| �️ **Novo Pentest Profissional** | 200h - OSINT, Exploitation, Social Eng, Priv Esc | Desec Security |
+| 🌐 **Redes para Segurança da Informação** | Protocolos, Infraestrutura, Attack Vectors | Afonso da Silva |
+| 🔐 **Segurança da Informação** | Fundamentos, Políticas, Compliance | Senac |
 
 </div>
 
