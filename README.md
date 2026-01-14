@@ -126,7 +126,7 @@ impl OffensiveSecuritySpecialist {
 <tr>
 <td width="50%" valign="top">
 
-### 🩸 [CVE-2025-14857 MongoBleed](https://github.com/Ermensonx/CVE-2025-14857-MongoBleed)
+### [CVE-2025-14857 MongoBleed](https://github.com/Ermensonx/CVE-2025-14857-MongoBleed)
 
 <img src="https://img.shields.io/badge/CVE-High-ff6b35?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/CVSSv4-8.7-ff6b35?style=flat-square&labelColor=0d1117"/>
@@ -138,7 +138,7 @@ PoC completo para **MongoBleed** — vazamento de memória heap pré-autenticaç
 </td>
 <td width="50%" valign="top">
 
-### 🔓 [CVE-2024-38077 MadLicense](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)
+### [CVE-2024-38077 MadLicense](https://github.com/Ermensonx/CVE-2024-38077-MadLicense-exploit)
 
 <img src="https://img.shields.io/badge/CVE-Critical-dc3545?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/RCE-Unauthenticated-ff6b35?style=flat-square&labelColor=0d1117"/>
@@ -152,7 +152,7 @@ PoC para vulnerabilidade **MadLicense** no Windows RD Licensing Service. RCE cr�
 <tr>
 <td width="50%" valign="top">
 
-### 🦀 [MyStealerLab](https://github.com/Ermensonx/MyStealerLab)
+### [MyStealerLab](https://github.com/Ermensonx/MyStealerLab)
 
 <img src="https://img.shields.io/badge/Purpose-Educational-238636?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Language-Rust-dea584?style=flat-square&labelColor=0d1117"/>
@@ -164,7 +164,7 @@ Laboratório de estudo de malware em **Rust**. Projeto educacional para análise
 </td>
 <td width="50%" valign="top">
 
-### 🔧 [Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)
+### [Desec-Scripts](https://github.com/Ermensonx/Desec-Scripts)
 
 <img src="https://img.shields.io/badge/Type-Tooling-238636?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Focus-Automation-4EAA25?style=flat-square&labelColor=0d1117"/>
