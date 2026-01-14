@@ -58,7 +58,7 @@ impl OffensiveSecuritySpecialist {
 
 *Estudos aprofundados de vulnerabilidades públicas com desenvolvimento de ferramentas de validação*
 
-| � CVE-2025-14857 | � CVE-2024-38077 | 🎯 Fintech Audit |
+| **CVE-2025-14857** | **CVE-2024-38077** | **Fintech Audit** |
 |:---:|:---:|:---:|
 | **MongoBleed** | **MadLicense** | **16 Vulnerabilities** |
 | CVSSv4 8.7 High | CVSS 9.8 Critical | 2 Critical • 3 High |
@@ -212,15 +212,15 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 | Certificação | Foco | Instituição |
 |:---:|:---:|:---:|
-| � **DCPT** - Desec Certified Penetration Tester | Web Pentest, Network Security, Report Writing | Desec Security |
-| � **CRTA** - Red Team Analyst | Red Team Ops, MITRE ATT&CK, Adversary Simulation | Cyberwarfare |
+| **DCPT** - Desec Certified Penetration Tester | Web Pentest, Network Security, Report Writing | Desec Security |
+| **CRTA** - Red Team Analyst | Red Team Ops, MITRE ATT&CK, Adversary Simulation | Cyberwarfare |
 
 ### ✅ Certificações Concluídas
 
 | Certificação | Descrição | Instituição |
 |:---:|:---:|:---:|
-| 🏆 **PEv1** - Pentest Experience | Certificação hands-on em cenários reais | Certificação Prática |
-| �️ **Novo Pentest Profissional** | 200h - OSINT, Exploitation, Social Eng, Priv Esc | Desec Security |
+| **PEv1** - Pentest Experience | Certificacao hands-on em cenarios reais | Certificacao Pratica |
+| **Novo Pentest Profissional** | 200h - OSINT, Exploitation, Social Eng, Priv Esc | Desec Security |
 | 🌐 **Redes para Segurança da Informação** | Protocolos, Infraestrutura, Attack Vectors | Afonso da Silva |
 | 🔐 **Segurança da Informação** | Fundamentos, Políticas, Compliance | Senac |
 
@@ -234,7 +234,7 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 | CVE ID | Nome | Severidade | Status |
 |:---:|:---:|:---:|:---:|
-| **CVE-2025-14857** | MongoBleed | � **CVSSv4 8.7** | ✅ PoC Validado |
+| **CVE-2025-14857** | MongoBleed | **CVSSv4 8.7** | PoC Validado |
 | **CVE-2024-38077** | MadLicense | 🔴 **CVSS 9.8** | ✅ PoC Público |
 | 🔒 **Em Pesquisa** | TBD | ⏳ Pending | 🔄 Responsible Disclosure |
 
