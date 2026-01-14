@@ -54,16 +54,20 @@ impl OffensiveSecuritySpecialist {
 
 <div align="center">
 
-| 🔴 CVE-2025-14857 | 🔴 CVE-2024-38077 | 🎯 Fintech Audit |
+### 🔬 Pesquisa Pessoal & Desenvolvimento de PoCs
+
+*Estudos aprofundados de vulnerabilidades públicas com desenvolvimento de ferramentas de validação*
+
+| � CVE-2025-14857 | � CVE-2024-38077 | 🎯 Fintech Audit |
 |:---:|:---:|:---:|
 | **MongoBleed** | **MadLicense** | **16 Vulnerabilities** |
 | CVSSv4 8.7 High | CVSS 9.8 Critical | 2 Critical • 3 High |
 | Pre-auth Memory Leak | Windows RCE | Payment Flow Compromise |
-| 14,300+ exploits validated | RD Licensing Service | Full Security Assessment |
+| PoC mais completa disponível | PoC para validação de patches | Full Security Assessment |
 
 </div>
 
-> **🔥 Destaque:** Autor da **PoC mais completa** para **CVE-2025-14857 (MongoBleed)** — vulnerabilidade de vazamento de memória heap pré-autenticação em MongoDB, baseada na análise do breach do Rainbow Six Siege.
+> **🔥 Destaque:** Autor da **PoC mais completa** para **CVE-2025-14857 (MongoBleed)** — pesquisa pessoal sobre vazamento de memória heap pré-autenticação em MongoDB, baseada na análise do breach do Rainbow Six Siege. *CVE não descoberto por mim.*
 
 ---
 
