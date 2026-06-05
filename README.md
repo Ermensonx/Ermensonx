@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Ermenson%20Marcos&fontSize=45&fontColor=c9d1d9&animation=fadeIn&fontAlignY=32&desc=🛡️%20Offensive%20Security%20Specialist%20•%20Red%20Team%20•%20CVE%20Hunter&descSize=16&descAlignY=55"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:238636&height=180&section=header&text=Ermenson%20Marcos&fontSize=45&fontColor=c9d1d9&animation=fadeIn&fontAlignY=32&desc=🛡️%20Offensive%20Security%20Specialist%20•%20Red%20Team%20•%20CVE%20Research&descSize=16&descAlignY=55"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=238636&center=true&vCenter=true&width=500&lines=Red+Team+%7C+Penetration+Testing;2+CVEs+Published+%7C+16%2B+Critical+Vulns;Breaking+systems+to+make+them+unbreakable" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=238636&center=true&vCenter=true&width=560&lines=Red+Team+%7C+Penetration+Testing;Original+RCE+Research+%7C+PoC+Dev+for+Public+CVEs;16+Vulns+in+Fintech+Audit+%7C+2+Critical;Breaking+systems+to+make+them+unbreakable" alt="Typing SVG" />
 
 <br/>
 
@@ -17,13 +17,16 @@
 
 ## 💀 About Me
 
+> Offensive security specialist focused on **original vulnerability research**, exploit development and red team operations. I find bugs, build reproducible PoCs, and write up the full chain — from the serialized byte to RCE.
+
 ```rust
 struct OffensiveSecuritySpecialist {
     name: &'static str,
     alias: &'static str,
     role: &'static str,
-    cves_published: u8,
-    vulns_found: u8,
+    original_research: u8,    // self-found bugs (PoisonJar — CVE under review)
+    public_cve_pocs: u8,      // complete PoCs for CVEs disclosed by others
+    vulns_in_audits: u8,
 }
 
 impl OffensiveSecuritySpecialist {
@@ -32,15 +35,16 @@ impl OffensiveSecuritySpecialist {
             name: "Ermenson Marcos Rodrigues Jr",
             alias: "Ermensonx",
             role: "Offensive Security Specialist",
-            cves_published: 2,
-            vulns_found: 16,
+            original_research: 1,   // PoisonJar — Nextcloud pre-auth RCE
+            public_cve_pocs: 2,     // MongoBleed, MadLicense
+            vulns_in_audits: 16,
         }
     }
-    
+
     fn expertise(&self) -> Vec<&str> {
         vec![
             "Red Team Operations",
-            "Web Application Pentesting", 
+            "Web Application Pentesting",
             "CVE Research & Exploit Dev",
             "Fintech Security Auditing",
         ]
@@ -54,20 +58,22 @@ impl OffensiveSecuritySpecialist {
 
 <div align="center">
 
-### 🔬 Pesquisa Pessoal & Desenvolvimento de PoCs
+### 🔬 Pesquisa Original & Desenvolvimento de PoCs
 
-*Estudos aprofundados de vulnerabilidades públicas com desenvolvimento de ferramentas de validação*
+*Pesquisa própria de vulnerabilidades e desenvolvimento de ferramentas de validação reproduzíveis*
 
-| **CVE-2025-14857** | **CVE-2024-38077** | **Fintech Audit** |
-|:---:|:---:|:---:|
-| **MongoBleed** | **MadLicense** | **16 Vulnerabilities** |
-| CVSSv4 8.7 High | CVSS 9.8 Critical | 2 Critical • 3 High |
-| Pre-auth Memory Leak | Windows RCE | Payment Flow Compromise |
-| PoC mais completa disponível | PoC para validação de patches | Full Security Assessment |
+| **PoisonJar** | **CVE-2025-14857** | **CVE-2024-38077** | **Fintech Audit** |
+|:---:|:---:|:---:|:---:|
+| Nextcloud Pre-Auth RCE | **MongoBleed** | **MadLicense** | **16 Vulnerabilities** |
+| CWE-502 · Redis Poisoning | CVSSv4 8.7 High | CVSS 9.8 Critical | 2 Critical • 3 High |
+| 🌟 **Pesquisa original** | Pre-auth Memory Leak | Windows RCE | Payment Flow Compromise |
+| CVE em análise (MITRE) | PoC mais completa | PoC p/ validação de patch | Full Security Assessment |
 
 </div>
 
-> **🔥 Destaque:** Autor da **PoC mais completa** para **CVE-2025-14857 (MongoBleed)** — pesquisa pessoal sobre vazamento de memória heap pré-autenticação em MongoDB, baseada na análise do breach do Rainbow Six Siege. *CVE não descoberto por mim.*
+> 🌟 **Pesquisa original — PoisonJar:** RCE pré-autenticação no **Nextcloud** via `unserialize()` inseguro sobre dados do cache Redis (**CWE-502**), encadeando o gadget `FileCookieJar` até um webshell como `www-data`. Writeup técnico completo + PoC/lab reproduzível. *CVE atualmente em análise no MITRE (contestado pelo fornecedor).*
+
+> 🔥 **MongoBleed:** autor da **PoC pública mais completa** para **CVE-2025-14857** — vazamento de memória heap pré-autenticação no MongoDB, baseado na análise do breach do Rainbow Six Siege. *CVE não descoberto por mim.*
 
 ---
 
@@ -87,7 +93,7 @@ impl OffensiveSecuritySpecialist {
 
 ---
 
-## Arsenal
+## 🧰 Arsenal
 
 <div align="center">
 
@@ -109,10 +115,11 @@ impl OffensiveSecuritySpecialist {
 ![Ghidra](https://img.shields.io/badge/Ghidra-0d1117?style=for-the-badge&logo=ghost&logoColor=red)
 ![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-0d1117?style=for-the-badge&logo=target&logoColor=dc3545)
 
-**Platforms**
+**Platforms & Infra**
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=557C94)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
 ![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 ![Azure](https://img.shields.io/badge/Azure-0d1117?style=for-the-badge&logo=microsoftazure&logoColor=0078D4)
 
@@ -121,6 +128,21 @@ impl OffensiveSecuritySpecialist {
 ---
 
 ## 🚀 Featured Projects
+
+<div align="center">
+
+### 🌟 [PoisonJar — Nextcloud Pre-Auth RCE](https://github.com/Ermensonx/Poc-PoisonJar)
+
+<img src="https://img.shields.io/badge/Original_Research-238636?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/CWE--502-Deserialization-ff6b35?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Pre--Auth-RCE-dc3545?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/CVE-Under_MITRE_Review-9b59b6?style=flat-square&labelColor=0d1117"/>
+
+Pesquisa **original**: RCE pré-autenticação no Nextcloud via *cache poisoning* no Redis → `unserialize()` inseguro → gadget `FileCookieJar` → webshell como `www-data`. Inclui **lab Docker isolado** + **exploit sem dependências** (PT/EN) e writeup técnico completo.
+
+`Python` · `PHP` · `Redis` · `CWE-502` · `Original Research`
+
+</div>
 
 <table>
 <tr>
@@ -131,7 +153,7 @@ impl OffensiveSecuritySpecialist {
 <img src="https://img.shields.io/badge/CVE-High-ff6b35?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/CVSSv4-8.7-ff6b35?style=flat-square&labelColor=0d1117"/>
 
-PoC completo para **MongoBleed** — vazamento de memória heap pré-autenticação em MongoDB 7.0.5. Baseado no ataque real ao Rainbow Six Siege.
+PoC completo para **MongoBleed** — vazamento de memória heap pré-autenticação em MongoDB 7.0.5. Baseado no ataque real ao Rainbow Six Siege. *CVE descoberto por terceiros.*
 
 `Python` `MongoDB` `Memory Leak` `CVE Research`
 
@@ -143,7 +165,7 @@ PoC completo para **MongoBleed** — vazamento de memória heap pré-autenticaç
 <img src="https://img.shields.io/badge/CVE-Critical-dc3545?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/RCE-Unauthenticated-ff6b35?style=flat-square&labelColor=0d1117"/>
 
-PoC para vulnerabilidade **MadLicense** no Windows RD Licensing Service. RCE crítica para validação de patches.
+PoC para a vulnerabilidade **MadLicense** no Windows RD Licensing Service. RCE crítica para validação de patches. *CVE descoberto por terceiros.*
 
 `Python` `Windows` `RCE` `Exploitation`
 
@@ -198,6 +220,23 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 ---
 
+## 🔬 Vulnerability Research
+
+<div align="center">
+
+| ID | Nome | Severidade | Origem | Status |
+|:---:|:---:|:---:|:---:|:---:|
+| 🟣 **PoisonJar** | Nextcloud Pre-Auth RCE | CWE-502 | 🌟 Pesquisa original | 🔄 CVE em análise (MITRE) |
+| **CVE-2025-14857** | MongoBleed | CVSSv4 **8.7** | PoC (CVE de terceiros) | ✅ PoC público |
+| **CVE-2024-38077** | MadLicense | 🔴 CVSS **9.8** | PoC (CVE de terceiros) | ✅ PoC público |
+| 🔒 **Em pesquisa** | TBD | ⏳ Pending | Pesquisa original | 🔄 Responsible Disclosure |
+
+<sub>🌟 **Pesquisa original** = vulnerabilidade encontrada por mim · **PoC (CVE de terceiros)** = ferramenta de validação para uma falha já divulgada publicamente.</sub>
+
+</div>
+
+---
+
 ## 🎓 Certificações & Formação
 
 <div align="center">
@@ -206,37 +245,23 @@ Coleção de scripts para **Desec Security**. Automação de reconnaissance, sca
 
 | Curso | Status | Instituição |
 |:---:|:---:|:---:|
-| 🎓 **Tecnologia em Sistemas de Informação** | 5° Semestre | ITE - Instituição Toledo de Ensino |
+| 🎓 **Tecnologia em Sistemas de Informação** | 5º Semestre | ITE — Instituição Toledo de Ensino |
 
 ### 🛡️ Certificações em Progresso
 
 | Certificação | Foco | Instituição |
 |:---:|:---:|:---:|
-| **DCPT** - Desec Certified Penetration Tester | Web Pentest, Network Security, Report Writing | Desec Security |
-| **CRTA** - Red Team Analyst | Red Team Ops, MITRE ATT&CK, Adversary Simulation | Cyberwarfare |
+| **DCPT** — Desec Certified Penetration Tester | Web Pentest, Network Security, Report Writing | Desec Security |
+| **CRTA** — Certified Red Team Analyst | Red Team Ops, MITRE ATT&CK, Adversary Simulation | CyberWarFare Labs |
 
 ### ✅ Certificações Concluídas
 
 | Certificação | Descrição | Instituição |
 |:---:|:---:|:---:|
-| **PEv1** - Pentest Experience | Certificacao hands-on em cenarios reais | Certificacao Pratica |
-| **Novo Pentest Profissional** | 200h - OSINT, Exploitation, Social Eng, Priv Esc | Desec Security |
+| **PEv1** — Pentest Experience | Certificação hands-on em cenários reais | Certificação Prática |
+| **Novo Pentest Profissional** | 200h — OSINT, Exploitation, Social Eng, Priv Esc | Desec Security |
 | 🌐 **Redes para Segurança da Informação** | Protocolos, Infraestrutura, Attack Vectors | Afonso da Silva |
 | 🔐 **Segurança da Informação** | Fundamentos, Políticas, Compliance | Senac |
-
-</div>
-
----
-
-## 🔬 CVE Research
-
-<div align="center">
-
-| CVE ID | Nome | Severidade | Status |
-|:---:|:---:|:---:|:---:|
-| **CVE-2025-14857** | MongoBleed | **CVSSv4 8.7** | PoC Validado |
-| **CVE-2024-38077** | MadLicense | 🔴 **CVSS 9.8** | ✅ PoC Público |
-| 🔒 **Em Pesquisa** | TBD | ⏳ Pending | 🔄 Responsible Disclosure |
 
 </div>
 
